@@ -71,18 +71,20 @@ a{color:inherit;text-decoration:none}
 .cta-hero:hover{transform:translateY(-3px);box-shadow:0 8px 40px rgba(0,230,118,0.4)}
 .cta-gold{background:linear-gradient(135deg,#ffd700 0%,#f5a623 100%) !important;box-shadow:0 4px 30px rgba(255,215,0,0.25) !important}
 .cta-gold:hover{box-shadow:0 8px 40px rgba(255,215,0,0.35) !important}
-.cta-dbbet{display:inline-flex !important;align-items:center;gap:0;padding:0 !important;background:linear-gradient(135deg,#c62828 0%,#8b1a1a 100%) !important;border:1.5px solid rgba(255,215,0,0.5);box-shadow:0 4px 24px rgba(198,40,40,0.35) !important;overflow:hidden;border-radius:14px}
-.cta-dbbet:hover{box-shadow:0 8px 32px rgba(198,40,40,0.5) !important;border-color:rgba(255,215,0,0.7)}
-.cta-dbbet .db-logo-area{display:flex;align-items:center;padding:14px 18px;border-right:1px solid rgba(255,255,255,0.15)}
-.cta-dbbet .db-logo-area img{height:22px;filter:brightness(10)}
-.cta-dbbet .db-text-area{display:flex;align-items:center;gap:8px;padding:14px 20px;font-size:14px;font-weight:800;color:#fff;letter-spacing:0.5px;text-transform:uppercase}
-.cta-dbbet .db-arrow{font-size:16px;color:rgba(255,215,0,0.9)}
-.cta-trionda{display:inline-flex !important;align-items:center;gap:0;padding:0 !important;background:linear-gradient(135deg,#00c853 0%,#009624 100%) !important;border:1.5px solid rgba(0,230,118,0.5);box-shadow:0 4px 24px rgba(0,200,83,0.35) !important;overflow:hidden;border-radius:14px}
-.cta-trionda:hover{box-shadow:0 8px 32px rgba(0,200,83,0.5) !important;border-color:rgba(0,230,118,0.7)}
-.cta-trionda .tr-logo-area{display:flex;align-items:center;padding:10px 14px;border-right:1px solid rgba(255,255,255,0.2);background:rgba(0,0,0,0.1)}
-.cta-trionda .tr-logo-area img{width:34px;height:34px;border-radius:50%;border:1.5px solid rgba(255,255,255,0.3)}
-.cta-trionda .tr-text-area{display:flex;align-items:center;gap:8px;padding:14px 20px;font-size:14px;font-weight:800;color:#000;letter-spacing:0.5px;text-transform:uppercase}
-.cta-trionda .tr-arrow{font-size:16px;color:rgba(0,0,0,0.5)}
+.cta-trionda{display:flex !important;align-items:stretch;gap:0;padding:0 !important;background:linear-gradient(180deg,#00e676 0%,#00a152 100%) !important;border:2px solid rgba(0,230,118,0.6);box-shadow:0 4px 28px rgba(0,230,118,0.3),inset 0 1px 0 rgba(255,255,255,0.2) !important;overflow:hidden;border-radius:16px;min-height:58px}
+.cta-trionda:hover{transform:translateY(-2px) !important;box-shadow:0 8px 36px rgba(0,230,118,0.45),inset 0 1px 0 rgba(255,255,255,0.25) !important;border-color:rgba(0,230,118,0.9)}
+.cta-trionda .tr-logo-area{display:flex;align-items:center;justify-content:center;padding:0 16px;background:rgba(0,0,0,0.12);border-right:1px solid rgba(255,255,255,0.18)}
+.cta-trionda .tr-logo-area img{width:38px;height:38px;border-radius:50%;border:2px solid rgba(255,255,255,0.4);box-shadow:0 2px 8px rgba(0,0,0,0.2)}
+.cta-trionda .tr-text-area{display:flex;align-items:center;justify-content:center;gap:10px;padding:0 28px;font-size:15px;font-weight:800;color:#000;letter-spacing:0.8px;text-transform:uppercase;flex:1;white-space:nowrap}
+.cta-trionda .tr-arrow{font-size:18px;color:rgba(0,0,0,0.4);transition:transform .3s}
+.cta-trionda:hover .tr-arrow{transform:translateX(3px)}
+.cta-dbbet{display:flex !important;align-items:stretch;gap:0;padding:0 !important;background:linear-gradient(180deg,#d32f2f 0%,#8b1a1a 100%) !important;border:2px solid rgba(255,215,0,0.55);box-shadow:0 4px 28px rgba(198,40,40,0.3),inset 0 1px 0 rgba(255,255,255,0.15) !important;overflow:hidden;border-radius:16px;min-height:58px}
+.cta-dbbet:hover{transform:translateY(-2px) !important;box-shadow:0 8px 36px rgba(198,40,40,0.45),inset 0 1px 0 rgba(255,255,255,0.2) !important;border-color:rgba(255,215,0,0.85)}
+.cta-dbbet .db-logo-area{display:flex;align-items:center;justify-content:center;padding:0 20px;border-right:1px solid rgba(255,255,255,0.12)}
+.cta-dbbet .db-logo-area img{height:24px;filter:brightness(10)}
+.cta-dbbet .db-text-area{display:flex;align-items:center;justify-content:center;gap:10px;padding:0 24px;font-size:15px;font-weight:800;color:#fff;letter-spacing:0.8px;text-transform:uppercase;flex:1;white-space:nowrap}
+.cta-dbbet .db-arrow{font-size:18px;color:rgba(255,215,0,0.85);transition:transform .3s}
+.cta-dbbet:hover .db-arrow{transform:translateX(3px)}
 .cta-note{display:block;margin-top:10px;font-size:12px;color:rgba(255,255,255,0.25)}
 
 /* Registration banner */
@@ -137,8 +139,8 @@ a{color:inherit;text-decoration:none}
 .bottom-cta{position:relative;z-index:1;text-align:center;padding:30px 24px 60px;max-width:600px;margin:0 auto}
 .bottom-cta h2{font-size:26px;font-weight:900;letter-spacing:-1px;margin-bottom:8px}
 .bottom-cta p{font-size:14px;color:rgba(255,255,255,0.35);margin-bottom:24px;line-height:1.6}
-.cta-row{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:20px}
-.cta-row .cta-hero{flex:1;max-width:260px;text-align:center;display:block}
+.cta-row{display:flex;flex-direction:column;gap:14px;align-items:center;margin-bottom:24px;max-width:380px;margin-left:auto;margin-right:auto}
+.cta-row .cta-hero{width:100%;text-align:center}
 .codes-row{display:inline-flex;gap:20px;align-items:center}
 .codes-row .cdiv{text-align:center}
 .codes-row .clabel{font-size:10px;color:rgba(255,255,255,0.25);text-transform:uppercase;letter-spacing:1px;margin-bottom:2px}
